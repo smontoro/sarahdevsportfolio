@@ -3,6 +3,11 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+
+/*
+secondary color: #669377;
+*/
+
 body,
 html {
   width: 100%;
@@ -131,22 +136,19 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
 
+header, .headerP {
+  color: black;
+}
 
-header{
-  position: absolute;
-  top: 50%;
-  left: 10%;
+.header-left {
+  margin-top: 15%;
 }
 
 
-
-
-
-
-/*header.masthead {
+header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/hero.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -172,7 +174,13 @@ header{
         font-size: 3rem; } }
   @media (min-width: 1200px) {
     header.masthead h1 {
-      font-size: 4rem; } }*/
+      font-size: 4rem;
+      } }
+
+
+.headshot {
+  width: 40%;
+}
 
 .service-box {
   max-width: 400px; }
@@ -235,8 +243,8 @@ header{
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40; }
+  background-color: #669377;
+  border-color: #669377; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
     background-color: #ee4b28 !important; }
