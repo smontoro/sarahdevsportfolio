@@ -161,10 +161,14 @@ header.masthead {
   header.masthead h1 {
     font-size: 2rem; }
   header.masthead p {
-    font-weight: 300; }
+    font-weight: 300;
+    /* margin: 0; */
+    }
   @media (min-width: 768px) {
     header.masthead p {
-      font-size: 1.15rem; } }
+      font-size: 1.15rem;
+      /* margin: 0; */
+      } }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
@@ -257,8 +261,10 @@ header.masthead {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
 
 
-
-
+/* PORTFOLIO */
+#portfolio img {
+  height: 350px;
+}
 
 
 
