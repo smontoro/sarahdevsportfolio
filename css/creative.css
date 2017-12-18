@@ -85,16 +85,17 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
-    font-weight: 700;
+    /*font-weight: 700;*/
     text-transform: uppercase;
     color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #f05f40; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: .9rem;
-    font-weight: 700;
+    /*font-weight: 700;*/
     text-transform: uppercase;
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -125,7 +126,12 @@ body {
           color: #fff; }
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-        background-color: #fff; }
+        background-color: #fff;
+        }
+      .bracket {
+        color: red;
+      }
+
         #mainNav.navbar-shrink .navbar-brand {
           color: #F05F40; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
@@ -136,6 +142,27 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
+
+.logo-top {
+   line-height: 0;
+   font-size: 23px;
+   margin: 0 auto;
+}
+
+
+.logo-bottom {
+  color: #669377;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0;
+  margin: 0 auto;
+}
+
+.bracket {
+  font-size: 60px;
+  color: white;
+  margin-right: 20px;
+}
 
 header, .headerP {
   color: black;
@@ -187,9 +214,6 @@ header.masthead {
   width: 40%;
 }
 
-.logo span {
-  color: #669377;
-}
 
 .service-box {
   max-width: 400px; }
