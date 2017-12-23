@@ -172,23 +172,42 @@ header, .headerP {
   background-image: url("../img/hero.jpg");
   background-position: center;
   background-repeat: no-repeat; 
- background-size: cover;
- height: 100%; 
+  background-size: cover; 
 }
 
 
+
 header.masthead {
-  padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px); }
+  padding-top: 3rem;
+  padding-bottom: calc(10rem - 56px);
+  }
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
   header.masthead h1 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    }
   header.masthead p {
     font-weight: 300;
     /* margin: 0; */
     }
+
+  @media (min-width: 375px) {
+    .bg {
+      height: 70%;
+      width: 375px;
+    }
+    .header.masthead {
+      padding-top: 3rem;
+    }
+    .btn-contact {
+      display: none;
+    }
+  }
+
+
+
+
   @media (min-width: 768px) {
     header.masthead p {
       font-size: 1.15rem;
