@@ -83,7 +83,8 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
-  transition: all 0.2s; }
+  transition: all 0.2s;
+  }
   #mainNav .navbar-brand {
     /*font-weight: 700;*/
     text-transform: uppercase;
@@ -155,9 +156,9 @@ body {
 }
 
 .bracket {
-  font-size: 60px;
+  font-size: 43px;
   color: white;
-  margin-right: 20px;
+  margin-right: 36px;
 }
 
 header, .headerP {
@@ -165,7 +166,7 @@ header, .headerP {
 }
 
 .header-left {
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 .bg {
@@ -191,18 +192,23 @@ header.masthead {
     font-weight: 300;
     /* margin: 0; */
     }
-
   @media (min-width: 375px) {
     .bg {
-      height: 70%;
-      width: 375px;
+      height: 70%
     }
-    .header.masthead {
-      padding-top: 3rem;
+    #mainNav{
+      background-color: #F05F40;
     }
-    .btn-contact {
+    .logo, .bracket {
       display: none;
     }
+    header {
+      margin-top: 50px;
+    }
+    .header-left {
+     margin-top: 0;
+    }
+  
   }
 
 
