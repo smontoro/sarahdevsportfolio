@@ -38,9 +38,7 @@
  .bg-primary {
      background-color: #F05F40 !important;
 }
- .bg-dark {
-     background-color: #212529 !important;
-}
+
  .text-faded {
      color: rgba(255, 255, 255, 0.7);
 }
@@ -120,7 +118,7 @@
     font-size: 20px;
     font-weight: 700;
      text-transform: uppercase;
-     color: #212529;
+     color: #343a40;
 }
  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
      color: #F05F40;
@@ -167,7 +165,7 @@ header, header p {
 /** ABOUT
 ------------------------------ **/
  .headshot {
-     width: 40%;
+     width: 33%;
 }
 
 /** SERVICES 
