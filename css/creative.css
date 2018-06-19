@@ -249,12 +249,17 @@ header, header p {
      overflow: auto;
 }
 
+.modal a {
+    font-size: 14px;
+}
+
 .modal-content {
      background-color: #fff;
      margin: auto;
      padding: 50px;
      border: 1px solid #888;
-     width: 50%;
+     width: 85%;
+     text-align: center;
 }
 
 
@@ -321,3 +326,14 @@ header, header p {
      .headshot {
      width: 33%;
     }
+
+    /*MODAL*/
+    .modal-content {
+         width: 50%;
+         text-align: center;
+    }
+    .modal a {
+    font-size: 1rem;
+}
+
+}
